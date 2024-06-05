@@ -294,73 +294,114 @@ h1 {
     display: none
 }
 
+/* Header */
+
 header {
     position: fixed;
-    width: 100%;
-    background: #fff;
-    top: 0;
     z-index: 9999;
-    box-shadow: 1px 1px 8px #ccc;
-}
-
-.logo {
-    float: left;
-    padding: 12px 0 0 0
-}
-
-.logo a {
-    display: inline-block
-}
-
-.right-menu {
-    float: right;
-    padding: 0px 30px 0px 0;
-    float: left;
-    position: relative;
+    top: 0;
     display: flex;
-    justify-content: center;
-    align-items: center
-}
-
-.right-menu ul {
-    display: flex;
+    align-items: center;
     justify-content: space-between;
-    align-items: center;
-  height: 100%;
+    background-color: white;
+    padding: 15px 20px;  /* set padding top/buttom padding to 0 when using country selector, 15px otherwise */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
 }
 
-.right-menu ul li {
-    height: 100%;
+.logo-nav-container {
     display: flex;
     align-items: center;
-    padding-left: 16px
 }
 
-.right-menu ul li+li {
-    margin-left: 16px;
-    border-left: solid 1px #ccc;
-   
+.logo img {
+    max-height: 50px; 
+    margin-right: 35px; /* Space between logo and nav */
 }
 
-.right-menu ul li a {
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
     font-size: 16px;
 }
 
-.right-menu ul li a.brochure-pdf {
-    background: url(../images/pdf-icon.html) no-repeat 0 0;
-    padding: 3px 0 4px 30px;
-    min-height: 28px;
+.navbar > ul > li {
+    position: relative;
+    margin-right: 20px; /* Adjust the spacing between nav items */
 }
 
-.right-menu ul li a:hover {
-    color: #006090
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
 }
-.right-menu ul li a.enquire-now-btn{
-    padding: 13px 15px;
+
+.navbar ul li ul {
+    display: none;
+    position: absolute;
+    top: 22px;
+    left: 0;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    list-style-type: none;
+    padding: 5px;
 }
-.right-menu ul li a.enquire-now-btn:hover {
-    color: #fff
+
+.navbar ul li:hover ul {
+    display: block;
 }
+
+.navbar ul li ul li {
+    width: 200px;
+}
+
+.navbar ul li ul li a {
+    display: block;
+    padding: 10px;
+    color: black;
+}
+
+.navbar ul li ul li a:hover {
+    background-color: #f0f0f0;
+}
+
+.header-buttons {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.header-buttons button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'MontserratRegular';
+}
+
+.header-buttons .login {
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+}
+
+.header-buttons .apply {
+    background-color: #10b830;
+    color: white;
+    border-radius:8px
+}
+
+header .right-sec {
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: stretch
+}
+
 .flag-tab {background: #eaf9ff;border-left: solid 1px #d6d6d6;
     background: -moz-linear-gradient(top, #eaf9ff 0%, #ccf1ff 100%);
     background: -webkit-linear-gradient(top, #eaf9ff 0%,#ccf1ff 100%);
@@ -387,10 +428,6 @@ header {
     display: block;
     transition: 0.5s ease all;
     color: #b4b4b4
-}
-
-.right-menu ul li.flag-tab a:hover {
-    color: #b4b4b4 !important
 }
 
 .flag-tab>a {
@@ -429,41 +466,6 @@ header {
     margin-right: 8px
 }
 
-header .right-sec {
-    float: right;
-    display: flex;
-    justify-content: flex-end;
-    align-items: stretch
-}
-
-.hamburger-sec {
-    display: flex;
-    align-items: center;
-      padding-right: 12px;
-    padding-left: 12px;
-    background: #9c080b;
-    background: -moz-linear-gradient(top, #9c080b 0%, #c3292d 100%);
-    background: -webkit-linear-gradient(top, #9c080b 0%, #c3292d 100%);
-    background: linear-gradient(to bottom, #9c080b 0%, #c3292d 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9c080b', endColorstr='#c3292d', GradientType=0);
-
-}
-
-.hamburger-icon.sprite {
-    float: right;
-    background-position:-45px -2px;
-    width: 30px;
-    height: 23px;
-    cursor: pointer
-}
-
-.switch-site {
-    border-right: solid 1px #e1e1e1;
-    border-left: solid 1px #e1e1e1;
-    display: flex;
-    align-items: center;
-    position: relative;
-}
 .country-dropdown {
     width: 100%;
 }
@@ -472,13 +474,7 @@ header .right-sec {
     display: block;
     margin-bottom: 5px;
 }
-.top-text {
-    color: #c4292d;
-    font-size: 0.857rem;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin-bottom: 3px;
-}
+
 .country-dropdown .btm-text {
     font-size: 0.750rem;
     font-family: 'MontserratSemiBold';
@@ -507,15 +503,23 @@ header .right-sec {
     border-right: 5px solid transparent;
     border-top: 6px solid #2d3e50;
 }
-.login-cta{
-    color: #004e8c;
-    font-size: 16px;
-    font-family: 'MontserratMedium';
+
+.contact-details {
+    display:flex;
+    margin-left: 20px;
+    align-items: center;
 }
-.contact-number {
-    border-left: solid 1px #e1e1e1;
-    margin-left: 20px
+
+.contact-details a {
+    font-size: 18px;
 }
+
+.call-icon {
+    height:30px;
+    width:auto;
+    margin-right: 5px
+}
+
 .contact-number li a{margin: 0}
 .call.sprite {
     background-position: -35px -1px;
@@ -525,133 +529,13 @@ header .right-sec {
     vertical-align: top;
     margin: 1px 8px 0 0;
 }
-.mm-menu .mm-btn:after,
-.mm-menu .mm-btn::before {
-    border-color: #fff !important;
-}
-
-.mm-next::after,
-.mm-prev::before {
-    width: 10px !important;
-    height: 10px !important;
-}
-
-.mm-menu .mm-close.mm-btn::before {
-    display: none
-}
-
-.mm-menu .mm-btn:after {
-    background: url(../images/sprite.png) no-repeat;
-    background-position: -3px -75px;
-    width: 16px;
-    height: 18px;
-    border-color: transparent !important;
-    transform: none !important
-}
-.menu-text {
-    font-size: 48px;
-    font-family: 'MontserratSemiBold';
-    color: #Fff;
-    text-transform: uppercase;
-    float: left;
-}
-.desk-menu {
-    background: #b41b1f;;
-    color: #fff;
-    position: fixed;
-    right: -876px;
-    top: 0;
-    z-index: 9999;
-    height: 100vh;
-    width: 876px;
-    padding-top: 28px
-}
-
-.desk-menu-top {
-    padding: 0 45px 26px 44px;
-    border-bottom: solid 1px rgba(0,0,0,0.2);
-}
-
-.close-icon.sprite {
-    background-position: -77px -1px;
-    width: 16px;
-    height: 18px;
-    float: right;
-    margin-top: 21px;
-    cursor: pointer
-}
-
-.desk-menu-btm ul li a.main-menu {
-    font-size: 18px;
-    color: #fff;
-    font-family: 'MontserratMedium';
-}
-
-.desk-menu-btm ul li a:hover,
-.desk-menu-btm ul li span a.sub-links:hover {
-    color: skyblue
-}
-
-.desk-menu-btm ul li {
-    margin-bottom: 24px
-}
-
-.submenu-links {
-    margin: 10px 0 0px 34px
-}
-
-.desk-menu-btm ul li span {
-    display: block;
-    margin-bottom: 2px
-}
-
-.desk-menu-btm ul li span a.sub-links {
-    font-size: 14px;
-    color: #fff;
-    padding-left: 14px;
-    background: url(../images/right-arrow-bullet.png) no-repeat 0 4px;
-    font-family: 'MontserratLight';
-}
-
-.desk-menu-btm .left-sec {
-    float: left;
-    width: 50%;
-    padding: 43px 5% 0;
-    border-right: solid 1px rgba(0,0,0,0.2);
-    height: 100vh;
-}
-
-.desk-menu-btm .right-sec {
-    float: right;
-    width: 50%;
-    display: block
-}
-
-.top-right-sec {
-    padding: 43px 10% 0
-}
-
-.follow-us {
-    font-size: 18px;
-    font-family: 'MontserratSemiBold'
-}
-
-.btm-right-sec {
-    padding: 29px 10% 0;
-    border-top: solid 1px rgba(0,0,0,0.2);
-}
-
-.btm-right-sec .social-icons {
-    margin-top: 14px;
-}
-
-nav:not(.mm-menu) {
-    display: none;
-}
 
 .mobile {
     display: none
 }
+
+/* Header End */
+
 .finance-sec{padding: 3rem 0}
 .finance-sec p{text-align: center;margin: 1rem 0 2rem;padding: 0 3rem;font-size: 1.5rem;line-height:2rem;    font-weight: 600;}
 .finance-sec .read-more{color:#02bbfe;font-size: 1.125rem;position: absolute;
