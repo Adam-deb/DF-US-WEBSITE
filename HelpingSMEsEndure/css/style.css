@@ -566,3 +566,77 @@ header .right-sec {
 .compolicy-links li:first-child {
     margin-right: 30px
 }
+
+.icon-button {
+    border-radius: 15px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 2.0rem;
+    height: 30px;
+    line-height: 40px;
+    margin: 0 5px;
+    position: relative;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 30px;
+}
+
+.icon-button i {
+    background: none;
+    color: white;
+    height: 30px;
+    left: 0;
+    line-height: 30px;
+    position: absolute;
+    top: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    width: 30px;
+    z-index: 10;
+}
+
+.icon-button .fa-twitter {
+    color: #fff;
+    border-radius: 5px;
+    font-size: 17px;
+    background: #1da1f2;
+}
+
+.icon-button .fa-facebook {
+    color: #fff;
+    border-radius: 5px;
+    font-size: 17px;
+    background: #3B5998
+}
+
+.icon-button .fa-youtube-play {
+    color: #fff;
+    border-radius: 5px;
+    font-size: 17px;
+    background: #d31212
+}
+
+.icon-button .fa-linkedin {
+    color: #fff;
+    border-radius: 5px;
+    font-size: 17px;
+    background: #0077b5
+}
+
+.icon-button .fa-vimeo {
+    color: #fff;
+    border-radius: 5px;
+    font-size: 21px;
+    background: #75bfe8;
+}
+
+.icon-button:hover .fa-twitter {
+    color: #1da1f2;
+    background: #fff;
+    border: solid 1px #1da1f2;
+}
