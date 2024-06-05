@@ -536,6 +536,14 @@ header .right-sec {
 
 /* Header End */
 
+.desk-menu-btm .left-sec {
+    float: left;
+    width: 50%;
+    padding: 43px 5% 0;
+    border-right: solid 1px rgba(0,0,0,0.2);
+    height: 100vh;
+}
+
 .finance-sec{padding: 3rem 0}
 .finance-sec p{text-align: center;margin: 1rem 0 2rem;padding: 0 3rem;font-size: 1.5rem;line-height:2rem;    font-weight: 600;}
 .finance-sec .read-more{color:#02bbfe;font-size: 1.125rem;position: absolute;
