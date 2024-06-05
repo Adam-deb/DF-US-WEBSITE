@@ -1,0 +1,815 @@
+@media only screen and (min-width:2500px) {
+    .banner{background-size: cover}
+    .banner-cont{margin-top: 11%;}
+}
+@media only screen and (min-width:1500px) {
+    .wrapper{width: 80%}
+    .service-sec{width: 85%;}
+    .service-desc{font-size: 1.3rem}
+    .service-box figcaption{font-size: 1.800em;}
+    .contact-container .contact-sec:last-child{width: 412px}
+    .finance-sec .sec-heading{    line-height: 4rem;}
+    .banner-form{margin: 2% 30px 0 0;}
+}
+
+@media only screen and (max-width:1600px) {
+    .wrapper {
+        width: 85%
+    }
+
+    .helping-sme-sec .right-sec {
+        margin-top: -8%;
+    }
+}
+
+@media only screen and (max-width:1366px) {
+    body {
+        font-size: 13px
+    }
+
+    .service-box {
+        padding: 3% 2.8% 7%
+    }
+
+    .yt-btn {
+        width: 60px;
+        bottom: -30px
+    }
+
+    .yt-btn a {
+        width: 100%;
+        display: block
+    }
+
+    .yt-btn a img {
+        width: 100%
+    }
+
+    .link:after {
+        top: 4px
+    }
+
+    .points-sec ul li {
+        background-position: 0 4px
+    }
+
+    .form-sec .form-field {
+        height: 43px;
+    }
+
+    .form-sec label {
+        margin-bottom: 6px;
+    }
+
+    .submit-btn {
+        background-position: 66% 52%
+    }
+
+    .contact-container .contact-sec:first-child {
+        width: 452px;
+        margin-right: 2%;
+    }
+
+    .contact-container .contact-sec:last-child {
+        width: 312px;
+    }
+
+    .com-contact-info .left-side {
+        margin-right: 7%;
+    }
+
+    .contact-container {
+        margin: 35px 0 0;
+    }
+
+
+    .form-heading {
+        margin-bottom: 15px;
+    }
+
+    .form-sec {
+        padding: 5% 8%;
+    }
+}
+
+@media only screen and (max-width:1350px) {
+    .contact-info-sec {
+        text-align: center;
+    }
+}
+@media only screen and (max-width:1250px) {
+    .service-sec {
+        width: 100%
+    }
+
+    .submit-btn {
+        background-position: 70% 52%
+    }
+    .funding-opt ul li{width: 30%}
+    .funding-opt ul li img{width: 100%}
+    .map-add-sec .contact-desc .top-sec{padding: 2rem 2rem 2rem;}
+    .video-cont-desc {
+        font-size: 55px;
+        line-height: 49px;
+        right: -10%;
+    }
+    .contact-info-sec {
+        text-align: center;
+    }
+    .contact-way-sec.fax{box-shadow:none}
+    .about-banner .banner-points{padding: 36px 10px 42px 0px;}
+    .banner-points li{padding-left: 0}
+}
+@media only screen and (max-width:1150px) {
+    .mobile {
+        display: block;
+    }
+    .wrapper {
+        width: 95%
+    }
+    .desk-top{display: none}
+    .mm-menu {
+        background: #b41b1f !important;
+        color: #fff !important;
+    }
+    
+    .mm-menu .mm-navbar a,
+    .mm-menu .mm-navbar>* {
+        color: #fff !important
+    }
+
+    .mm-menu .mm-listview>li .mm-next::after {
+        border-color: #fff !important
+    }
+
+    /*     .mm-menu .mm-btn::before {border-color:transparent}*/
+    .mm-listview>li:hover {
+        background: rgba(255, 255, 255, .5);
+    }
+
+    .mm-listview .mm-next {
+        width: 100% !important;
+    }
+    .mm-title{font-size: 1.5em}
+    .mm-menu .mm-btn:after {
+        background: url(../images/sprite.png) no-repeat;
+        background-position:-77px -1px;
+        width: 16px;
+        height: 18px;
+        border-color: transparent !important;
+        transform: none !important;
+    }
+    .business-fund .right-sec img{width: 100%}
+    .about-cont .right-sec{width: 32%}
+}
+
+@media only screen and (max-width:1024px) {
+    body {
+        font-size: 12px
+    }
+
+    .wrapper {
+        width: 95%;margin: 0 auto
+    }
+
+    .submit-btn {
+        background-position: 69% 52%
+    }
+
+    .contact-container .contact-sec:first-child {
+        width: 413px;
+    }
+
+    .contact-container .contact-sec:last-child {
+        width: 252px;
+    }
+
+    .contact-sec .left-sec {
+        width: 20%
+    }
+
+    .contact-sec .left-sec img {
+        width: 100%
+    }
+    .right-menu ul {
+        padding-top: 0;
+    }
+    .contact-number .btn-arrow{
+    display: none
+    }
+
+    .right-menu ul li a.enquire-now-btn{
+        padding: 10px 14px !important;
+        font-size: 12px !important;
+        
+    }
+    .right-menu ul li a{font-size: 14px}
+    .right-menu ul li a.enquire-now-btn .btn-text{margin-right: 0;}
+    .login-cta{font-size: 14px}
+    .login-cta img{display:none}
+    .banner-form {
+        width: 47%;
+        margin-right: 0;
+    }
+    .world-map img{width: 100%}
+    .col-3 {
+        padding-left: 3%;
+        width: 35%;
+    }
+    .col-2 {
+        padding: 0 1% 0 5%;
+    }.contact-sec-heading {
+        font-size: 1.5rem;
+    }
+    .contact-sec-heading span {
+        font-size: 2.75rem;
+    }
+    .who-video .fancybox img{width: 100%}
+    .video-cont-desc{right: -5%;}
+}
+@media only screen and (max-width:980px) {
+    .merchandpay-option {
+        width: 42%;
+        margin-bottom: 10px;
+    }
+    .merchandpay-option-container{flex-wrap: wrap;justify-content: center}
+    .logo{width: 140px;padding-top: 17px}
+    .logo img{width: 100%}
+    .right-menu{padding-right: 10px}
+}
+@media only screen and (max-width:840px) {
+    .business-fund .inner-cont.d-flex{display: block}
+    .business-fund .left-sec{width: 100%;margin-bottom: 2rem}
+    .business-fund .right-sec{width: 100%}
+    .address-info p{font-size: 1rem}
+    .funding-opt ul li + li{    margin-left: 1rem;}
+    .flow-sec {
+        width: 50%;
+    }
+    .about-cont .right-sec {
+        width: 41%;
+    }
+    .about-cont .left-sec{width: 55%}
+    .merchandpay-option {
+        width: 80%;
+        margin-bottom: 10px;
+    }
+    .merchandpay-option+.merchandpay-option{margin-left: 0}
+   
+    .right-menu ul li{padding-left: 10px}
+    .right-menu ul li+li{padding-left: 10px;margin-left: 10px}
+    .contact-number{margin-left: 10px}
+    .banner-cont{width: 67%}
+}
+@media only screen and (max-width:767px) {
+    /* body {
+        font-size: 11px
+    } */
+
+    .helping-sme-sec .inner-cont {
+        display: block
+    }
+
+    .helping-sme-sec .left-sec {
+        width: 100%;
+        text-align: center
+    }
+
+    .helping-sme-sec .sec-title {
+        margin-bottom: 3%;
+    }
+
+    .helping-sme-sec .left-sec p {
+        font-size: 1.7em;
+    }
+
+    .com-contact-info .left-side {
+        width: 50%
+    }
+
+    .com-contact-info .right-side {
+        width: 50%
+    }
+
+    .helping-sme-sec .right-sec {
+        width: 500px;
+        margin: 30px auto 0
+    }
+
+    .helping-sme-sec .right-sec .form-sec {
+        position: static
+    }
+
+    .form-sec .form-field {
+        height: 40px;
+    }
+
+    .submit-btn {
+        background-position: 63% 52%
+    }
+
+    .helping-sme-sec {
+        padding: 4% 0 8%;
+    }
+
+    .facities-sec {
+        padding: 2% 0 0;
+    }
+
+    .service-box {
+        width: 48%
+    }
+
+    .finance-sec .sec-heading br {
+        display: none
+    }
+
+    .finance-sec .sec-heading {
+        width: 100%
+    }
+
+    .finance-sec {
+        padding: 95px 0 0;
+        font-size: 1.3em;
+    }
+
+    .service-box:nth-child(2n + 2) {
+        margin-right: 0
+    }
+
+    .service-box:nth-child(3n + 3) {
+        margin-right: 3%
+    }
+
+    .service-box:last-child {
+        margin-right: 0 !important
+    }
+
+    .service-box {
+        padding: 3% 2.8% 10%;
+    }
+
+    .points-sec ul li {
+        background-size: 7px;
+        background-position: 0 4px;
+        padding: 0 0 0 20px;
+        font-size: 1.4em;
+    }
+
+    .link:after {
+        top: 1px
+    }
+
+    .finance-sec {
+        background-position: top center;
+        margin: 0px 0 20px;
+    }
+
+    .input-field .grey-icon {
+        width: 42px
+    }
+
+    .form-sec .form-field {
+        padding: 5px 5px 5px 58px;
+    }
+
+    .facities-sec p {
+        font-size: 1.4em
+    }
+
+    .contact-sec .contact-desc a {
+        font-size: 1rem;
+    }
+    .right-menu {
+        padding: 0px 10px 0px 0;
+    }
+   
+    .logo {
+        padding: 10px 0;
+    }
+    .banner-form {
+        margin-top: 60px;
+        padding: 25px;
+    }
+    .finance-sec p{padding: 0;font-size: 1.2rem;
+        line-height: 1.5rem;}
+    .map-add-sec.d-flex {
+        display: block;
+    }
+    .map-add-sec .g-map {
+        width: 100%;
+        height: 300px;
+    }
+    .map-add-sec .contact-desc {
+        width: 100%;
+    }
+    .address-info p br {
+        display: none;
+    }
+    .map-add-sec .contact-desc .top-sec::after{display: none}
+    .finance-sec .read-more{font-size:1rem}
+    .read-more span{width: 10px;display: inline-block}
+    .read-more span img{width:100%}
+    .finance-sec .read-more{bottom: 1rem}
+    .service-box figcaption{margin: 1rem 0 0.5rem;}
+    .sec-heading{font-size: 2rem;line-height: 2.5rem}
+    .business-fund .banner-points li{font-size: 1rem}
+    .business-fund .read-more{font-size: 1rem}
+    .world-map-sec{padding: 2rem 0}
+    .address-info{margin-bottom: 1rem;}
+ 
+    .advance-point-inner {
+        padding-left:5px ;
+    }
+  
+    .title-heading{margin-bottom: 18px}
+    .bredcrumbs{margin: 0 0 30px 0;}
+    .video-cont-desc {
+        position: relative;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+        bottom: 34px;font-size: 34px;
+        line-height: 38px;
+    }
+    .contact-form .left-sec {
+        float: none;
+        width: 100%;
+        padding: 43px 20px;
+        min-height: inherit;
+        margin-bottom: 50px;
+        box-shadow: 0px 0px 8px #ccc;
+        border-radius: 5px;
+    }
+    .contact-form .right-sec {
+        background: none;
+    }
+    .contact-form .right-sec {
+        float: none;
+        width: 100%;
+        min-height: inherit;
+        border-radius: 5px;
+    }
+    .contact-form {
+        box-shadow: none;
+    }
+    .com-add-sec {
+        min-height: inherit;
+        padding-bottom: 0;
+        background: rgb(0, 130, 195);
+        background: -moz-linear-gradient(top, rgba(0, 130, 195, 1) 0%, rgba(0, 97, 145, 1) 100%);
+        background: -webkit-linear-gradient(top, rgba(0, 130, 195, 1) 0%, rgba(0, 97, 145, 1) 100%);
+        background: linear-gradient(to bottom, rgba(0, 130, 195, 1) 0%, rgba(0, 97, 145, 1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0082c3', endColorstr='#006191', GradientType=0);
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+    .com-office img {
+        border-top-left-radius: 15px;
+    }
+    .google-map {
+        margin-top: 20px;
+    }
+    .check-process{display: block}
+    .check-process .left-side{width: 30%;margin-bottom: 20px}
+    .check-process .right-side{width: 100%}
+    header .right-sec {
+        float: none;
+        width: 100%;
+        border-left: 0;
+    }
+    .right-menu {
+        position: absolute;
+        top: 8px;
+        right: 0px;
+    }
+    .flag-tab {
+        float: left !important;
+        width: 100%;
+        border-left: 0;padding: 10px 35px 10px 15px;
+    }
+
+}
+@media only screen and (max-width:680px) {
+
+
+
+.about-cont .left-sec {
+    width: 100%;
+    float: none;
+}
+.about-cont .right-sec {
+    width: 100%;
+    float: none;
+    margin-top: 30px;margin-bottom: 30px
+}
+.inner-form{float: none;}
+.inner-form iframe{width: auto}
+.hilighted-text {
+    padding: 20px 15px;
+}
+.point-list li{margin-bottom:10px}
+p{margin-bottom: 1.3rem}
+.accordion-points .smk_accordion.acc_with_icon .accordion_in .acc_content{padding: 12px;}
+.accordion-points .smk_accordion.acc_with_icon .accordion_in .acc_head{padding: 12px 40px 12px 12px;line-height: 23px;}
+.contact-way-sec.phone {
+    box-shadow: none;
+}
+.contact-way-sec+.contact-way-sec {
+    margin-left: 0;
+}
+.flag-catg{top: 3.5rem;}
+.flag-catg a {
+    padding: 8px 28px 8px 15px;
+}
+.sub-btn{background-position: 62% 50%}
+.index-sub-btn{background-position: 62% 50% !important}
+body {padding-top: 100px}
+}
+@media only screen and (max-width:640px) {
+
+    .icon-button {
+        width: 30px;
+        height: 30px;
+    }
+
+    .icon-button i {
+        width: 30px;
+        height: 30px;
+        font-size: 15px !important;
+        line-height: 30px
+    }
+
+    .helping-sme-sec .right-sec {
+        width: 90%
+    }
+
+    body {
+        padding-top: 88px;
+    }
+
+    .contact-container {
+        align-items: stretch
+    }
+
+    .contact-container .contact-sec {
+        display: block
+    }
+
+    .contact-container .contact-sec:first-child {
+        width: 100%
+    }
+
+    .contact-container .contact-sec:last-child {
+        width: 100%
+    }
+
+    .contact-sec .left-sec {
+        margin-bottom: 10px
+    }
+
+    .service-box {
+        padding: 3% 2.8% 15%;
+    }
+    .right-menu ul li a {
+        font-size: 13px;
+    }
+    .call.sprite{margin: -1px 8px 0 0;}
+
+        .banner-form {
+            float: none;
+            width: 100%;
+            margin-top: 27px;
+        }
+        .banner-cont {
+            float: none;
+            width: 100%;
+            margin-top: 0px;
+        }
+        .banner-text {
+           
+           padding-top: 20px;margin-bottom: 30px;
+        }
+        .banner {
+            height:auto;padding-top: 4rem
+        }
+        .form-heading {
+            font-size: 18px;
+            line-height: 24px;
+            margin-bottom: 16px;
+        }
+        #mc_embed_signup form{padding-left: 0}
+        .top-footer-sec .wrapper.d-flex {
+            display: block;
+        }
+        .col-1{padding-right: 0;width: 100%}
+        .col-2 {
+            width: 100%;
+            padding: 15px 0;
+            border: 0;
+        }
+        .col-3 {
+            width: 100%;
+            padding: 0;
+        }
+        .contact-sec-heading {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+        .contact-sec-heading span {
+            font-size: 2.1rem;
+        }
+        .map-add-sec .contact-desc .top-sec {
+            padding: 1rem;
+        }
+        .comp-tbl thead tr th{font-size: 0.8rem;padding: 10px 15px;}
+        .comp-tbl td{font-size: 0.8rem;padding: 10px 15px;}
+        .comp-tbl td img{width: 22px;transform: translate(-50%,-50%);top: 50%;}
+        .input-container {
+            display: block;
+        }
+        .inline-input {
+            width: 100%;
+            margin-right: 0;
+        }
+       
+        .about-banner .banner-points{
+            padding: 54px 10px 1px 0px;}
+}
+
+@media only screen and (max-width:480px) {
+    body {
+        padding-top: 88px
+    }
+
+    .header-inner {
+        display: block
+    }
+
+    .logo {
+        margin: 0 auto 5px;
+        width: 170px
+    }
+
+  
+
+    .helping-sme-sec .right-sec {
+        width: 100%
+    }
+
+    .helping-sme-sec .sec-title,
+    .grey-title,
+    .green-title {
+        font-size: 2.750em;
+        line-height: 1.1em
+    }
+
+    .grey-title {
+        margin-bottom: 5px
+    }
+
+    .helping-sme-sec .left-sec p {
+        font-size: 1.4em;
+        padding: 0 0 13px 0;
+        margin-bottom: 16px;
+    }
+
+    .com-contact-info {
+        display: block
+    }
+
+    .com-contact-info .left-side {
+        width: 100%;
+        margin-bottom: 20px
+    }
+
+    .com-contact-info .right-side {
+        width: 100%
+    }
+
+    .submit-btn {
+        background-position: 66% 52%
+    }
+
+    .service-box {
+        width: 80%;
+        padding: 5% 3% 16%;
+    }
+
+    .service-desc {
+        font-size: 1em
+    }
+
+    .finance-sec .sec-heading {
+        font-size: 2.550em;
+        line-height: 2.7rem;
+    
+    }
+
+    .facities-sec p {
+        margin: 15px 0 30px
+    }
+
+    .service-box:last-child {
+        margin-bottom: 20px
+    }
+
+    :-moz-placeholder,
+    ::-moz-placeholder,
+    ::-webkit-input-placeholder {
+        font-size: 0.8em
+    }
+
+    .contact-container {
+        display: block
+    }
+
+    .contact-sec {
+    
+        margin-bottom: 15px;
+        padding: 5% 3%
+    }
+
+    .contact-sec .left-sec {
+        width: 50px;
+        margin: 0 auto
+    }
+
+    .service-box {
+        margin-right: 0
+    }
+
+    .service-box+.service-box {
+        margin-right: 0
+    }
+
+    .claim-fund p {
+        margin-bottom: 0
+    }
+    .banner{    padding-top: 5rem;padding-bottom: 3rem}
+    .flow-sec {
+        width: 100%;
+        display: block;
+        min-height: inherit;
+        padding: 5% 3%;
+    }
+    .banner-points li {
+        font-size: 16px;line-height: 27px;
+    }
+    .title-heading {
+        font-size: 30px;
+    }
+    .free-quotation{font-size: 36px;}
+    .merchandpay-option {
+        width: 90%;
+        margin-bottom: 10px;
+    }
+    .contact-info-sec {
+        text-align: left;
+    }
+    .sprite.tel-icon, .sprite.fax-icon, .sprite.email-icon {
+        display: block;
+        margin-bottom: 5px;
+    }
+    .contact-way-sec .right-sec {
+        margin-left: 0;
+    }
+    .contact-way-sec .right-sec{padding-right: 0}
+    .sub-btn{background-position: 65% 50%}
+    .index-sub-btn{background-position: 65% 50% !important}
+    .btn-contact-container{display: block;text-align: center;margin-right: 0}
+    #mc_embed_signup .button{margin: 0}
+    .call.sprite{display: none}
+    .right-menu ul li a.enquire-now-btn{
+        padding: 7px 8px !important;
+    font-size: 10px !important;
+    }
+    .login-cta{font-size: 12px}
+    .logo{width: 140px;margin-bottom: 0}
+    .right-menu ul li a[href^="tel"]{display: none}
+    .right-menu ul li+li{padding: 0}
+    .right-menu{top:12px}
+}
+@media only screen and (max-width:420px) {
+    .logo {
+        width: 140px;
+    }
+    .bredcrumbs {
+        text-align: center;
+    }
+    .bredcrumbs ul li {
+        margin-bottom: 8px;
+    }
+    .enquire-now-btn{padding: 12px 16px;font-size: 13px;}
+    .enquire-now-btn{margin-bottom: 10px}
+
+}
+
+@media only screen and (max-width:360px) {
+    .submit-btn {
+        background-position: 70% 53%;
+    }
+    .btn-sme-endure{background-position: 68% 51% !important}
+    .sub-btn{background-position: 70% 50%}
+    .index-sub-btn{background-position:70% 50% !important}
+}

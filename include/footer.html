@@ -1,0 +1,132 @@
+<div class="top-footer-sec">
+    <div class="wrapper d-flex ">
+        <div class="col-1">
+            <a href="index.html" class="footer-logo">
+                <img src="images/logo.html">
+            </a>
+            <p>We are a technology-focused financial services provider, providing responsible funding solutions
+                to SMEs around the world.</p>
+            <!-- <a href="" class="read-link">read more</a> -->
+        </div>
+        <div class="col-2">
+            <div class="footer-sec-title">Links</div>
+            <ul class="footer-links">
+                <li>
+                    <a href="index.html" data-scroll-nav="0">Home</a>
+                </li>
+                <li>
+                        <a href="contact.html" data-scroll-nav="4" class="">Contact Us</a>
+                    </li>
+                <li>
+                    <a href="about-businessfunding.html" data-scroll-nav="3" class="">Business Funding</a>
+                </li>
+                <li>
+                        <a href="https://corporate.decimalfactor.com/blog.html" target="_blank">Blog</a>
+                    </li>
+                <li>
+                    <a href="about-merchantServices.html" data-scroll-nav="1" class="">Merchant Services </a>
+                </li>
+                
+              
+               
+
+            </ul>
+        </div>
+        <div class="col-3">
+            <div class="footer-sec-title">Follow us on</div>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/decimalfactor" target="_blank" class="icon-button facebook">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                    <span></span>
+                </a>
+                <a href="https://in.linkedin.com/company/decimal-factor" target="_blank" class="icon-button linkedin">
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    <span></span>
+                </a>
+
+                <a href="https://twitter.com/decimalfactor" target="_blank" class="icon-button twitter">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <span></span>
+                </a>
+
+                <a href="https://vimeo.com/decimalfactor" target="_blank" class="icon-button vimeo">
+                    <i class="fa fa-vimeo" aria-hidden="true"></i>
+                    <span></span>
+                </a>
+
+
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="btm-footer-sec">
+    <div class="wrapper">
+        <div class="left-sec text-center">
+            <div class="copyright mont-regl">© Copyright 2021, All Rights Reserved</div>
+        </div>
+
+
+    </div>
+</div>
+
+<script type="text/javascript" src="js/jquery.mmenu.min.all.html"></script>
+<script>
+           jQuery(document).ready(function ($) {
+              {
+                  if ($(window).width() <= 1149)
+                      $(function () {
+                          $("nav#menu").mmenu({
+                              offCanvas: {
+                                  position: "right",
+                                  zposition: "front",
+                                  moveBackground: "front",
+                              },
+                              "extensions": [
+                                  "pagedim-black"
+                              ],
+                              navbars: [
+                                  {
+                                      position: 'top',
+                                      content: [
+                                          'prev',
+                                          'title',
+                                          'close'
+                                      ]
+                                  },
+                              ]
+                          });
+                      });
+              }
+          });
+    jQuery(document).ready(function ($) {
+        {
+            if ($(window).width() >= 1150)
+
+                $('.hamburger-icon').click(function () {
+                    $('.desk-menu').animate({ right: "0px" }, 300);
+                    $('body').animate({ right: "236px" }, 300);
+                    {
+                        if ($(window).width() >= 768)
+                            $('header').animate({ right: "236px" }, 300);
+                    }
+                    $('.blackoverlay').fadeIn(500);
+                });
+            $('.close-icon, .blackoverlay').click(function () {
+                $('.desk-menu').animate({ right: "-876px" }, 300);
+                $('header').animate({ right: "0px" }, 300);
+                $('body').animate({ right: "0px" }, 300);
+                $('.blackoverlay').fadeOut(500);
+            });
+        }
+    });
+</script>
+ <script src="js/aos.html"></script>
+ <script>
+     
+     $(window).on("load", function () {
+     AOS.init();
+ });
+ </script>
