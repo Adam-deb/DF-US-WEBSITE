@@ -243,7 +243,7 @@
         margin-bottom: 10px;
     }
     .merchandpay-option-container{flex-wrap: wrap;justify-content: center}
-    .logo{width: 140px;padding-top: 17px}
+    .logo{width: 140px;}
     .logo img{width: 100%}
     .right-menu{padding-right: 10px}
 }
@@ -799,6 +799,10 @@ body {padding-top: 100px}
 @media only screen and (max-width:420px) {
     .logo {
         width: 140px;
+    }
+
+    .header-buttons button {
+        font-size:12px
     }
     .bredcrumbs {
         text-align: center;
