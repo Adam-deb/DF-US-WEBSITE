@@ -163,6 +163,16 @@
     .about-cont .right-sec{width: 32%}
 }
 
+@media only screen and (max-width:1080px){
+    header .navbar {
+        display:none
+    }
+
+    header .contact-details {
+        display:none
+    }
+}
+
 @media only screen and (max-width:1024px) {
     body {
         font-size: 12px
@@ -265,6 +275,8 @@
     /* body {
         font-size: 11px
     } */
+
+
 
     .helping-sme-sec .inner-cont {
         display: block
