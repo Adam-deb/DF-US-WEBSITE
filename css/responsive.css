@@ -271,6 +271,13 @@
     .contact-number{margin-left: 10px}
     .banner-cont{width: 67%}
 }
+
+@media only screen and (max-width:780px) {
+    header .navbar{
+        display:none
+    }
+}
+
 @media only screen and (max-width:767px) {
     /* body {
         font-size: 11px
