@@ -433,13 +433,7 @@
         line-height: 38px;
     }
     .contact-form .left-sec {
-        float: none;
-        width: 100%;
-        padding: 43px 20px;
-        min-height: inherit;
-        margin-bottom: 50px;
-        box-shadow: 0px 0px 8px #ccc;
-        border-radius: 5px;
+        display:none
     }
     .contact-form .right-sec {
         background: none;

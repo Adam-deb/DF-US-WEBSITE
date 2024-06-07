@@ -1645,6 +1645,10 @@ footer{border-top:solid 2px #e8eaeb;}
     float: left;
     min-height: 517px;
 }
+
+.contact{
+    margin-bottom: 100px;
+}
 .mont-light {
     font-family: 'MontserratLight';
 }
