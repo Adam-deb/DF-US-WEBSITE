@@ -164,10 +164,6 @@
 }
 
 @media only screen and (max-width:1080px){
-    header .navbar {
-        display:none
-    }
-
     header .contact-details {
         display:none
     }
@@ -802,7 +798,8 @@ body {padding-top: 100px}
     }
 
     .header-buttons button {
-        font-size:12px
+        font-size:12px;
+        padding: 8px 10px
     }
     .bredcrumbs {
         text-align: center;
